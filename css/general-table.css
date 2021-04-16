@@ -1,0 +1,14 @@
+@media screen and (max-width: 640px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrap-inner {
+    width: 600px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=general-table.css.map */

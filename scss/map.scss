@@ -1,0 +1,293 @@
+@import "header";
+@import "footer";
+@import "general";
+
+.map-wrapper {
+  padding: 100px 0 122px;
+  position: relative;
+  background: #EAF7FE;
+
+  .zoom-set {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+
+    .plus-btn {
+      width: 54px;
+      box-sizing: border-box;
+      height: 54px;
+      border-radius: 5px;
+      cursor: pointer;
+      background: url("../assets/plus.svg") no-repeat center center, #FFFFFF;
+      margin-bottom: 10px;
+      outline: none;
+
+      &:active, &:hover {
+        background: url("../assets/plus-active.svg") no-repeat center center, #FFFFFF;
+        border-radius: 5px;
+        border: 1px solid #4B9200;
+        outline: none;
+
+      }
+    }
+
+    .cons-btn {
+      width: 54px;
+      height: 54px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      cursor: pointer;
+      background: url("../assets/cons.svg") no-repeat center center, #FFFFFF;
+      outline: none;
+
+
+      &:active, &:hover {
+        background: url("../assets/cons-active.svg") no-repeat center center, #FFFFFF;
+        border-radius: 5px;
+        border: 1px solid #4B9200;
+        outline: none;
+
+      }
+    }
+  }
+
+  .fake-canvas {
+    display: flex;
+    justify-content: center;
+
+    .map-block {
+      position: relative;
+      left: 4px;
+      top: 3px;
+
+      img {
+        display: block;
+      }
+
+      .active-countries {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #4F5352;
+
+        .country-marker {
+          position: absolute;
+        }
+
+        .usa-marker {
+          top: 338px;
+          left: 145px;
+        }
+
+        .la-marker {
+          top: 375px;
+          left: 160px;
+        }
+
+        .florida-marker {
+          top: 398px;
+          left: 274px;
+        }
+
+        .congo-marker {
+          top: 482px;
+          left: 563px;
+        }
+
+        .china-marker {
+          top: 369px;
+          left: 767px;
+        }
+      }
+
+      .points-block {
+        font-family: "Roboto", sans-serif;
+
+        .animal-point {
+          position: absolute;
+          cursor: pointer;
+
+          &:before {
+            position: absolute;
+            width: 100%;
+            bottom: -10px;
+            height: 10px;
+            content: '';
+          }
+
+          &:hover {
+            .tool-tip {
+              display: block;
+            }
+          }
+
+          .tool-tip {
+            position: absolute;
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            box-sizing: border-box;
+            padding: 11px;
+
+            display: none;
+            cursor: default;
+            z-index: 2;
+
+            .tool-tip-text {
+              margin: 0;
+            }
+
+            .tool-tip-btn {
+              background: #F1F3F2;
+              border: none;
+              box-sizing: border-box;
+              border-radius: 5px;
+              font-size: 16px;
+              line-height: 22px;
+              color: #4B9200;
+              width: 135px;
+              height: 31px;
+              margin-top: 11px;
+              cursor: pointer;
+              outline: none;
+            }
+
+            &:after {
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-bottom: 10px solid #FFFFFF;
+              content: '';
+              left: 50%;
+              top: -10px;
+              position: absolute;
+              margin-left: -5px;
+
+            }
+
+            &:before {
+              width: 0;
+              height: 0;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-bottom: 10px solid #000000;
+              content: '';
+              left: 50%;
+              top: -11px;
+              margin-left: -5px;
+              position: absolute;
+            }
+
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 28px;
+            height: 33px;
+            background: url("../assets/Group.svg") no-repeat center center;
+          }
+        }
+
+        .alligator-point {
+          width: 75px;
+          height: 20px;
+          background: url("../assets/lonely-crocodile.png") no-repeat bottom center;
+          top: 418px;
+          left: 245px;
+
+          &:after {
+            top: -38px;
+            left: 5px
+          }
+
+          .tool-tip {
+            top: 30px;
+            left: -32px;
+          }
+        }
+
+        .eagle-point {
+          width: 84px;
+          height: 57px;
+          background: url("../assets/eagle1.png") no-repeat left top, url("../assets/eagle2.png") no-repeat right bottom;
+          top: 369px;
+          left: 92px;
+
+          &:after {
+            top: -5px;
+            right: 14px
+          }
+
+          .tool-tip {
+            top: 67px;
+            left: -44px;
+          }
+        }
+
+        .gorillas-point {
+          width: 50px;
+          height: 40px;
+          background: url("../assets/gorillas.png") no-repeat bottom center;
+          top: 503px;
+          left: 543px;
+
+          &:after {
+            top: -38px;
+            left: 0px
+          }
+
+          .tool-tip {
+            top: 50px;
+            left: -50px;
+          }
+        }
+
+        .panda-point {
+          width: 37px;
+          height: 49px;
+          background: url("../assets/panda.png") no-repeat bottom center;
+          top: 328px;
+          left: 817px;
+
+          &:after {
+            top: 6px;
+            left: 100%
+          }
+
+          .tool-tip {
+            top: 59px;
+            left: -57px;
+          }
+        }
+
+        .pandas-point {
+          width: 46px;
+          height: 42px;
+          background: url("../assets/pandas.png") no-repeat bottom center;
+          top: 395px;
+          left: 810px;
+
+          &:after {
+            top: -13px;
+            right: -19px;
+          }
+
+          .tool-tip {
+            top: 52px;
+            left: -56px;
+          }
+        }
+      }
+    }
+  }
+}

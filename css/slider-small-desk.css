@@ -1,0 +1,23 @@
+@media screen and (max-width: 1000px) {
+  .slider .slider-item {
+    margin-bottom: 93px;
+    width: 295px;
+  }
+  .slider .slider-item:nth-child(n+4) {
+    margin-bottom: 20px;
+  }
+  .slider .slider-item img {
+    height: 293px;
+  }
+  .slider .slider-buttons {
+    bottom: 428px;
+  }
+  .slider .slider-buttons .right-arrow {
+    right: 322px;
+  }
+  .slider .slider-buttons .left-arrow {
+    left: 323px;
+  }
+}
+
+/*# sourceMappingURL=slider-small-desk.css.map */

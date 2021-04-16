@@ -1,0 +1,151 @@
+.slider {
+  position: relative;
+  top: -2px;
+  margin-bottom: 80px;
+
+  .slider-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .slider-item {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #FE9013;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      cursor: pointer;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #000000;
+        opacity: 0;
+        z-index: 1;
+        transition: all 1s ease;
+      }
+
+      .hidden-block {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 80%;
+        height: 80%;
+        top: 100%;
+        left: 10%;
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+        z-index: 3;
+        font-weight: bold;
+        transition: all .9s ease;
+
+        &>* {
+          width: 100%;
+        }
+      }
+
+      img {
+        display: block;
+        transition: transform 1s ease;
+      }
+
+      .thumbnail-text {
+        position: relative;
+
+        height: 60px;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-left: 16px;
+        box-sizing: border-box;
+        z-index: 2;
+
+        &[data-food-type="herbivorous"] {
+          background: url("../assets/banana-bamboo_icon.png") no-repeat 96% 50%, #FFFFFF;
+        }
+
+        &[data-food-type="predator"] {
+          background: url("../assets/meet-fish_icon.png") no-repeat 96% 50%, #FFFFFF;
+        }
+
+        .animal-name {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22.4px;
+          text-transform: uppercase;
+          color: #000000;
+          padding: 0;
+          margin: 0;
+          width: 100%;
+        }
+
+        .animal-location {
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 18px;
+          color: #000000;
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+      &:hover {
+        img {
+          display: block;
+          transform: scale(1.1);
+        }
+
+        &:after {
+          opacity: 0.5;
+        }
+
+        .hidden-block {
+          top: 5%;
+        }
+      }
+    }
+  }
+  .slider-buttons {
+    position: relative;
+    bottom: 464px;
+  }
+  .slide-arrow {
+    position: absolute;
+    top: 48%;
+    margin-top: -26px;
+    height: 62px;
+    width: 62px;
+    border-radius: 100%;
+    cursor: pointer;
+
+
+    &:active, &:hover {
+      background-color: #4B9200;
+    }
+  }
+
+  .right-arrow {
+    background: url("../assets/right-arrow.svg") no-repeat center center,  #F9804B;
+    right: -82px;
+  }
+
+  .left-arrow {
+    background: url("../assets/left-arrow.svg") no-repeat center center,  #F9804B;
+    left: -82px;
+  }
+
+}
+
+
+@import "slider-small-desk";
+@import "slider-tablet";

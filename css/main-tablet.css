@@ -1,0 +1,57 @@
+@media screen and (max-width: 640px) {
+  main .favorite-animal {
+    min-height: 373px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -82px;
+  }
+  main .favorite-animal .wrap-inner {
+    width: 600px;
+  }
+  main .favorite-animal .wrap-inner .left-side-box:before {
+    width: 237px;
+    height: 237px;
+    top: 10px;
+    left: 116px;
+  }
+  main .favorite-animal .wrap-inner .left-side-box .favorite-heading {
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 41px;
+    /* or 41px */
+    text-align: center;
+    width: 255px;
+    left: 150px;
+    top: -29px;
+  }
+  main .favorite-animal .wrap-inner .left-side-box .front-link {
+    bottom: 40px;
+    left: -250px;
+  }
+  main .backstage {
+    padding: 60px 20px;
+    background: url(../assets/flower_foto1.png) no-repeat right center;
+    background-size: 24%;
+    margin-bottom: 0;
+  }
+  main .backstage .two-column-row {
+    display: flex;
+    position: relative;
+    left: 60px;
+  }
+  main .backstage .two-column-row .img-block {
+    display: none;
+  }
+  main .backstage .two-column-row .backstage-heading {
+    margin-bottom: 20px;
+  }
+  main .pets {
+    padding-bottom: 40px;
+  }
+  main .pets .wrap-inner {
+    width: 600px;
+    padding: 20px 20px 60px;
+  }
+}
+
+/*# sourceMappingURL=main-tablet.css.map */

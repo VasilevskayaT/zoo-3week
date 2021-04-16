@@ -1,0 +1,73 @@
+@media screen and (max-width: 640px) {
+  main {
+
+    .favorite-animal {
+      min-height: 373px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-top: -82px;
+
+      .wrap-inner {
+        width: 600px;
+
+
+        .left-side-box {
+          &:before {
+            width: 237px;
+            height: 237px;
+            top: 10px;
+            left: 116px;
+          }
+
+          .favorite-heading {
+            font-size: 54px;
+            font-weight: bold;
+            line-height: 41px;
+            /* or 41px */
+            text-align: center;
+            width: 255px;
+            left: 150px;
+            top: -29px;
+          }
+
+          .front-link {
+            bottom: 40px;
+            left: -250px;
+          }
+        }
+      }
+    }
+
+    .backstage {
+      padding: 60px 20px;
+      background: url(../assets/flower_foto1.png) no-repeat right center;
+      background-size: 24%;
+      margin-bottom: 0;
+
+      .two-column-row {
+        display: flex;
+        position: relative;
+        left: 60px;
+
+        .img-block {
+          display: none;
+        }
+
+        .backstage-heading {
+          margin-bottom: 20px
+        }
+      }
+    }
+
+    .pets {
+
+      padding-bottom: 40px;
+
+      .wrap-inner {
+        width: 600px;
+        padding: 20px 20px 60px;
+
+      }
+    }
+  }
+}

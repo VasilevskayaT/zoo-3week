@@ -1,0 +1,170 @@
+.slider {
+  position: relative;
+  top: -2px;
+  margin-bottom: 80px;
+}
+.slider .slider-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.slider .slider-content .slider-item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #FE9013;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.slider .slider-content .slider-item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000000;
+  opacity: 0;
+  z-index: 1;
+  transition: all 1s ease;
+}
+.slider .slider-content .slider-item .hidden-block {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 80%;
+  height: 80%;
+  top: 100%;
+  left: 10%;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 3;
+  font-weight: bold;
+  transition: all 0.9s ease;
+}
+.slider .slider-content .slider-item .hidden-block > * {
+  width: 100%;
+}
+.slider .slider-content .slider-item img {
+  display: block;
+  transition: transform 1s ease;
+}
+.slider .slider-content .slider-item .thumbnail-text {
+  position: relative;
+  height: 60px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 16px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.slider .slider-content .slider-item .thumbnail-text[data-food-type=herbivorous] {
+  background: url("../assets/banana-bamboo_icon.png") no-repeat 96% 50%, #FFFFFF;
+}
+.slider .slider-content .slider-item .thumbnail-text[data-food-type=predator] {
+  background: url("../assets/meet-fish_icon.png") no-repeat 96% 50%, #FFFFFF;
+}
+.slider .slider-content .slider-item .thumbnail-text .animal-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.slider .slider-content .slider-item .thumbnail-text .animal-location {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+.slider .slider-content .slider-item:hover img {
+  display: block;
+  transform: scale(1.1);
+}
+.slider .slider-content .slider-item:hover:after {
+  opacity: 0.5;
+}
+.slider .slider-content .slider-item:hover .hidden-block {
+  top: 5%;
+}
+.slider .slider-buttons {
+  position: relative;
+  bottom: 464px;
+}
+.slider .slide-arrow {
+  position: absolute;
+  top: 48%;
+  margin-top: -26px;
+  height: 62px;
+  width: 62px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.slider .slide-arrow:active, .slider .slide-arrow:hover {
+  background-color: #4B9200;
+}
+.slider .right-arrow {
+  background: url("../assets/right-arrow.svg") no-repeat center center, #F9804B;
+  right: -82px;
+}
+.slider .left-arrow {
+  background: url("../assets/left-arrow.svg") no-repeat center center, #F9804B;
+  left: -82px;
+}
+
+@media screen and (max-width: 1000px) {
+  .slider .slider-item {
+    margin-bottom: 93px;
+    width: 295px;
+  }
+  .slider .slider-item:nth-child(n+4) {
+    margin-bottom: 20px;
+  }
+  .slider .slider-item img {
+    height: 293px;
+  }
+  .slider .slider-buttons {
+    bottom: 428px;
+  }
+  .slider .slider-buttons .right-arrow {
+    right: 322px;
+  }
+  .slider .slider-buttons .left-arrow {
+    left: 323px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .slider {
+    margin-bottom: 0px;
+  }
+  .slider .slider-content .slider-item {
+    width: 285px;
+    height: 347px;
+  }
+  .slider .slider-content .slider-item:nth-child(2), .slider .slider-content .slider-item:first-child {
+    margin-bottom: 92px;
+  }
+  .slider .slider-content .slider-item img {
+    height: 285px;
+  }
+  .slider .slider-content .slider-item:nth-child(n+5) {
+    display: none;
+  }
+  .slider .slider-buttons {
+    bottom: 420px;
+  }
+}
+
+/*# sourceMappingURL=slider.css.map */

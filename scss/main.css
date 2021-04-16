@@ -1,0 +1,8 @@
+main .favorite-animal {
+  padding-top: 80px;
+  margin-top: -80px;
+  background: url("./assets/Giant_Panda.png") no-repeat center center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

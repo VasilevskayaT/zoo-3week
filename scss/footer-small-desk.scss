@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 1000px) {
+
+  footer {
+    .wrap-inner {
+      padding-left: 14px;
+      box-sizing: border-box;
+    }
+
+    .footer-top {
+      .subscribe-block {
+        left: -15px;
+      }
+    }
+
+
+    .footer-bottom {
+
+      .footer-menu {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 105px;
+
+        .footer-menu-item {
+          margin-left: 48px;
+
+          &:first-child {
+            margin-left: 0;
+
+          }
+        }
+      }
+
+      .copy-right-block {
+        position: relative;
+        left: 13px;
+      }
+
+      .copy-right-text {
+        margin-top: 11px;
+      }
+    }
+  }
+
+}

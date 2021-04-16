@@ -1,0 +1,31 @@
+@media screen and (max-width: 640px) {
+
+  .slider {
+
+    margin-bottom: 0px;
+
+    .slider-content {
+
+      .slider-item {
+        width: 285px;
+        height: 347px;
+
+        &:nth-child(2), &:first-child {
+          margin-bottom: 92px;
+        }
+
+        img {
+          height: 285px;
+        }
+
+        &:nth-child(n+5) {
+          display: none;
+        }
+      }
+    }
+
+    .slider-buttons {
+      bottom: 420px;
+    }
+  }
+}

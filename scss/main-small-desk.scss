@@ -1,0 +1,178 @@
+
+@media screen and (max-width: 1000px) {
+
+  .wrap-inner {
+    width: auto;
+
+  }
+
+  main {
+    .favorite-animal{
+      padding-top: 82px;
+      margin-top: -80px;
+      background: url("../assets/small-desktop/Giant_Panda-sd.png") no-repeat center center;
+      background-size: cover;
+      min-height: 584px;
+
+      .wrap-inner {
+        overflow: hidden;
+
+        .left-side-box {
+
+          width: 400px;
+          position: relative;
+          padding-top: 75px;
+          text-align: center;
+
+          &:before {
+            top: -12px;
+            left: -114px;
+            width: 367px;
+            height: 367px;
+            background: url("../assets/Ellipse.png") center center;
+          }
+          .favorite-heading {
+            font-size: 85px;
+            color: #FFFFFF;
+            line-height: 64px;
+            position: relative;
+            left: -55px;
+            top: -34px;
+            margin: 0 0 7px;
+
+            span {
+              color: #FFEE2E;
+            }
+          }
+          .front-link {
+            position: relative;
+            left: -56px;
+          }
+
+        }
+      }
+    }
+
+
+    .backstage {
+      padding: 108px 30px;
+      background-size: 0%;
+      margin-bottom: 47px;
+
+        .img-block {
+          background: url("../assets/small-desktop/bamboo-cap-sd.png") no-repeat center center;
+          width: 455px;
+          height: 408px;
+          margin-right: 85px;
+      }
+
+      .text-block {
+        width: 454px;
+        padding-left: 0;
+        position: relative;
+        top: -10px;
+        left: 0px;
+
+        .backstage-text {
+          width: 454px;
+          position: relative;
+          top: 22px;
+
+          &.backstage-text-first {
+            position: relative;
+            top: 8px;
+          }
+        }
+
+        .backstage-sub-heading {
+          position: relative;
+          top: 14px;
+        }
+      }
+    }
+
+    .pets {
+      padding-bottom: 139px;
+      background: url(../assets/small-desktop/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
+      background-size: 16%, 24%;
+
+    }
+
+    .donation {
+      padding: 28px 0 50px;
+
+      .wrap-inner {
+        padding: 30px 48px 50px;
+
+        .donation-heading {
+          margin-bottom: 24px;
+        }
+
+        .donation-sub-heading {
+          margin-bottom: 19px;
+        }
+
+        .donation-strong-text {
+          margin-top: 0;
+          white-space: normal;
+          padding-right: 30px;
+        }
+
+        .donation-text {
+          height: 40px;
+          margin-bottom: 41px;
+        }
+
+        .payment-steps {
+          margin-bottom: 73px;
+        }
+      }
+    }
+
+    .testimonials {
+      padding: 100px 30px 140px;
+      background: url(../assets/leav_foto_v2.png) no-repeat right 118%;
+      background-size: 20%;
+
+      .testimonials-heading {
+        margin-bottom: 32px;
+      }
+
+      .testimonials-block {
+        .progress-nav-wrap {
+          width: 390px;
+          left: -5px;
+          margin-bottom: 52px;
+
+          .progress-btn {
+            width: 75px;
+          }
+        }
+
+        .testimonials-list {
+          margin-bottom: 22px;
+
+          .testimonials-item {
+            width: 31%;
+            height: 387px;
+            padding: 15px 17px 17px 12px;
+
+            &:nth-child(n+4) {
+              display: none;
+            }
+
+            &:nth-child(2) {
+              padding: 8px 21px 19px 15px;
+
+              .testimonials-head {
+                margin-bottom: 19px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
