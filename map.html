@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="wrap-inner">
+        <a href="./landing.html" class="logo">
+            <h1>PetStory online</h1>
+        </a>
+        <nav class="main-nav">
+            <li><a href="./landing.html">About</a></li>
+            <li><a class="active" href="" style="pointer-events: none;cursor: default;">Map</a></li>
+            <li><a href="./zoos/panda_cam.html">Zoos</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by &copy;</a></li>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="map-wrapper">
+        <div class="fake-canvas">
+            <div class="map-block">
+                <div class="active-countries">
+                    <span class="usa-marker country-marker">United States</span>
+                    <span class="la-marker country-marker">Los Angeles</span>
+                    <span class="florida-marker country-marker">Florida</span>
+                    <span class="congo-marker country-marker">Congo</span>
+                    <span class="china-marker country-marker">China</span>
+                </div>
+                <div class="points-block">
+                    <div class="alligator-point animal-point">
+                        <div class="tool-tip">
+                            <p class="tool-tip-text">Alligators</p>
+                            <p class="tool-tip-text">Florida, USA</p>
+                            <button class="tool-tip-btn">Watch online</button>
+                        </div>
+                    </div>
+                    <div class="eagle-point animal-point">
+                        <div class="tool-tip">
+                            <p class="tool-tip-text">Eagle</p>
+                            <p class="tool-tip-text">Los Angeles, USA</p>
+                            <button class="tool-tip-btn">Watch online</button>
+                        </div>
+                    </div>
+                    <div class="gorillas-point animal-point">
+                        <div class="tool-tip">
+                            <p class="tool-tip-text">Gorillas</p>
+                            <p class="tool-tip-text">Congo</p>
+                            <button class="tool-tip-btn">Watch online</button>
+                        </div>
+                    </div>
+                    <div class="panda-point animal-point">
+                        <div class="tool-tip">
+                            <p class="tool-tip-text">Panda</p>
+                            <p class="tool-tip-text">China</p>
+                            <button class="tool-tip-btn">Watch online</button>
+                        </div>
+                    </div>
+                    <div class="pandas-point animal-point">
+                        <div class="tool-tip">
+                            <p class="tool-tip-text">Panda</p>
+                            <p class="tool-tip-text">China</p>
+                            <button class="tool-tip-btn">Watch online</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/map.png" alt="map">
+
+            </div>
+        </div>
+        <div class="zoom-set">
+            <span class="zoom-btn plus-btn "></span>
+            <span class="zoom-btn cons-btn"></span>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="wrap-inner">
+        <div class="footer-top">
+            <a href="./landing.html" class="logo">
+                <h2 class="footer-title">PetStory online</h2>
+            </a>
+            <div class="subscribe-block">
+                <h2 class="subscribe-heading">Subscribe to our news</h2>
+                <form action="">
+                    <input class="subscribe-email-field" type="email" placeholder="Enter your email"
+                           pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+.)+[A-z]{2,4}$" required>
+                    <button class="subscribe-email-btn" type="submit">Submit</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="footer-center">
+            <a class="front-link secondary" href="./donate.html">donate for volunteers</a>
+        </div>
+        <div class="footer-bottom">
+            <ul class="social-list">
+                <li class="social-item"><a class="social-link facebook" href="https://www.facebook.com/">Facebook</a></li>
+                <li class="social-item"><a class="social-link twitter" href="https://twitter.com/">Twitter</a></li>
+                <li class="social-item"><a class="social-link instagram" href="https://instagram.com">Instagram</a></li>
+                <li class="social-item"><a class="social-link youTube" href="https://youtube.com">YouTube</a></li>
+            </ul>
+            <ul class="footer-menu">
+                <li class="footer-menu-item"><a class="footer-menu-link" href="./landing.html">About</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link active" href="#"
+                                                style="cursor: default;">Map</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link" href="./zoos/panda_cam.html">Zoos</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link" href="">Contact us</a></li>
+            </ul>
+            <div class="copy-right-block">
+                <p class="copy-right-text">Designed by Alisa Samborskaya</p>
+                <p class="copy-right-text">&copy;RSSchool & &copy;Yem Digital 2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

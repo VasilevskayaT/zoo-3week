@@ -1,0 +1,13 @@
+{
+  "name": "online-zoo",
+  "description": "test project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch scss:css"
+  },
+  "main": "./landing.html",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
