@@ -3,18 +3,24 @@
 
   footer {
     .wrap-inner {
-      padding-left: 14px;
+      padding: 0 30px;
       box-sizing: border-box;
     }
 
     .footer-top {
+      padding-left: 14px;
+
       .subscribe-block {
         left: -15px;
       }
     }
 
+    .footer-center {
+      padding-left: 14px;
+    }
 
     .footer-bottom {
+      padding-left: 14px;
 
       .footer-menu {
         padding-left: 0;

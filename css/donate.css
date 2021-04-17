@@ -34,6 +34,11 @@ header .wrap-inner {
 }
 
 @media screen and (max-width: 1000px) {
+  header {
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+  }
   header .main-nav li {
     margin-left: 44px;
   }
@@ -41,6 +46,18 @@ header .wrap-inner {
 @media screen and (max-width: 640px) {
   header {
     height: 34px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    height: 34px;
+    padding: 0;
+  }
+  header .wrap-inner {
+    margin: auto;
+  }
+  header .logo {
+    width: 47px;
   }
 }
 footer {
@@ -256,11 +273,20 @@ footer .footer-bottom .copy-right-text {
 
 @media screen and (max-width: 1000px) {
   footer .wrap-inner {
-    padding-left: 14px;
+    padding: 0 30px;
     box-sizing: border-box;
+  }
+  footer .footer-top {
+    padding-left: 14px;
   }
   footer .footer-top .subscribe-block {
     left: -15px;
+  }
+  footer .footer-center {
+    padding-left: 14px;
+  }
+  footer .footer-bottom {
+    padding-left: 14px;
   }
   footer .footer-bottom .footer-menu {
     padding-left: 0;
@@ -279,6 +305,59 @@ footer .footer-bottom .copy-right-text {
   }
   footer .footer-bottom .copy-right-text {
     margin-top: 11px;
+  }
+}
+@media screen and (max-width: 640px) {
+  footer {
+    padding: 18px 20px 7px;
+  }
+  footer .wrap-inner {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer .footer-top {
+    padding-left: 0px;
+    margin-bottom: 32px;
+  }
+  footer .footer-top .subscribe-block {
+    display: none;
+  }
+  footer .footer-center {
+    margin-bottom: 55px;
+    padding-left: 0;
+  }
+  footer .footer-bottom {
+    padding-left: 0px;
+    position: relative;
+  }
+  footer .footer-bottom .social-list {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: -11px;
+    bottom: 93px;
+    height: 165px;
+  }
+  footer .footer-bottom .social-list .social-item {
+    margin-bottom: 16px;
+  }
+  footer .footer-bottom .social-list .social-item .social-link {
+    width: 0;
+    overflow: hidden;
+  }
+  footer .footer-bottom .social-list .social-item:last-child {
+    margin-top: 0;
+  }
+  footer .footer-bottom .footer-menu {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  footer .footer-bottom .footer-menu .footer-menu-item {
+    margin-left: 37px;
+  }
+  footer .footer-bottom .copy-right-block {
+    left: 0;
   }
 }
 body {
@@ -375,6 +454,27 @@ h1, h2, h3, h4, h5 {
 
   .wrap-inner {
     width: 600px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo h1 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .wrap-inner {
+    max-width: 300px;
     margin: auto;
     font-family: "Roboto", sans-serif;
   }

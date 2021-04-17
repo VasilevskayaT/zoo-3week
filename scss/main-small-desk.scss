@@ -3,30 +3,28 @@
 
   .wrap-inner {
     width: auto;
-
   }
 
   main {
     .favorite-animal{
       padding-top: 82px;
       margin-top: -80px;
-      background: url("../assets/small-desktop/Giant_Panda-sd.png") no-repeat center center;
+      background: url("../assets/small/Giant_Panda-sd.png") no-repeat center center;
       background-size: cover;
       min-height: 584px;
 
       .wrap-inner {
-        overflow: hidden;
 
         .left-side-box {
 
           width: 400px;
           position: relative;
-          padding-top: 75px;
+          padding-top: 74px;
           text-align: center;
 
           &:before {
             top: -12px;
-            left: -114px;
+            left: -144px;
             width: 367px;
             height: 367px;
             background: url("../assets/Ellipse.png") center center;
@@ -36,9 +34,10 @@
             color: #FFFFFF;
             line-height: 64px;
             position: relative;
-            left: -55px;
+            left: -87px;
             top: -34px;
             margin: 0 0 7px;
+            font-weight: 700;
 
             span {
               color: #FFEE2E;
@@ -46,9 +45,8 @@
           }
           .front-link {
             position: relative;
-            left: -56px;
+            left: -86px;
           }
-
         }
       }
     }
@@ -60,7 +58,7 @@
       margin-bottom: 47px;
 
         .img-block {
-          background: url("../assets/small-desktop/bamboo-cap-sd.png") no-repeat center center;
+          background: url("../assets/small/bamboo-cap-sd.png") no-repeat center center;
           width: 455px;
           height: 408px;
           margin-right: 85px;
@@ -92,24 +90,23 @@
     }
 
     .pets {
-      padding-bottom: 139px;
-      background: url(../assets/small-desktop/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
-      background-size: 16%, 24%;
-
+      background: url(../assets/small/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
+      background-size: 19%, 24%;
+      padding: 0 30px 140px;
     }
 
     .donation {
-      padding: 28px 0 50px;
+      padding: 30px 30px 50px;
 
       .wrap-inner {
         padding: 30px 48px 50px;
 
         .donation-heading {
-          margin-bottom: 24px;
+          margin-bottom: 20px;
         }
 
         .donation-sub-heading {
-          margin-bottom: 19px;
+          margin: 0 0 19px;
         }
 
         .donation-strong-text {
@@ -126,12 +123,16 @@
         .payment-steps {
           margin-bottom: 73px;
         }
+
+        .payment-info-heading {
+          margin: 0 0 41px;
+        }
       }
     }
 
     .testimonials {
       padding: 100px 30px 140px;
-      background: url(../assets/leav_foto_v2.png) no-repeat right 118%;
+      background: url(../assets/leav_foto_v2.png) no-repeat right 117%;
       background-size: 20%;
 
       .testimonials-heading {
@@ -166,6 +167,7 @@
 
               .testimonials-head {
                 margin-bottom: 19px;
+                padding-left: 41px;
               }
             }
           }

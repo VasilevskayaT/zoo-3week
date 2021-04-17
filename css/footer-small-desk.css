@@ -1,10 +1,19 @@
 @media screen and (max-width: 1000px) {
   footer .wrap-inner {
-    padding-left: 14px;
+    padding: 0 30px;
     box-sizing: border-box;
+  }
+  footer .footer-top {
+    padding-left: 14px;
   }
   footer .footer-top .subscribe-block {
     left: -15px;
+  }
+  footer .footer-center {
+    padding-left: 14px;
+  }
+  footer .footer-bottom {
+    padding-left: 14px;
   }
   footer .footer-bottom .footer-menu {
     padding-left: 0;

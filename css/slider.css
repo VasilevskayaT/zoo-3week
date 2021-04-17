@@ -125,14 +125,14 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .slider .slider-item {
-    margin-bottom: 93px;
+  .slider .slider-content .slider-item {
+    margin-bottom: 92px;
     width: 295px;
   }
-  .slider .slider-item:nth-child(n+4) {
+  .slider .slider-content .slider-item:nth-child(n+4) {
     margin-bottom: 20px;
   }
-  .slider .slider-item img {
+  .slider .slider-content .slider-item img {
     height: 293px;
   }
   .slider .slider-buttons {
@@ -151,10 +151,13 @@
   }
   .slider .slider-content .slider-item {
     width: 285px;
-    height: 347px;
+    height: 332px;
   }
   .slider .slider-content .slider-item:nth-child(2), .slider .slider-content .slider-item:first-child {
     margin-bottom: 92px;
+  }
+  .slider .slider-content .slider-item:nth-child(n+3) {
+    margin-bottom: 81px;
   }
   .slider .slider-content .slider-item img {
     height: 285px;
@@ -162,8 +165,42 @@
   .slider .slider-content .slider-item:nth-child(n+5) {
     display: none;
   }
+  .slider .slider-content .slider-item .thumbnail-text {
+    padding-bottom: 20px;
+    padding-left: 12px;
+  }
+  .slider .slider-content .slider-item .thumbnail-text[data-food-type=herbivorous] {
+    background: url(../assets/banana-bamboo_icon.png) no-repeat 97% 27%, #FFFFFF;
+    background-size: 9%;
+  }
+  .slider .slider-content .slider-item .thumbnail-text[data-food-type=predator] {
+    background: url(../assets/meet-fish_icon.png) no-repeat 99% 13%, #FFFFFF;
+    background-size: 15%;
+  }
+  .slider .slider-content .slider-item .thumbnail-text .animal-name {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .slider .slider-content .slider-item .thumbnail-text .animal-location {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
   .slider .slider-buttons {
-    bottom: 420px;
+    bottom: 468px;
+  }
+  .slider .slider-buttons .right-arrow {
+    right: 223px;
+  }
+  .slider .slider-buttons .left-arrow {
+    left: 223px;
   }
 }
 

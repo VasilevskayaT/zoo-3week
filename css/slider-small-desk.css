@@ -1,12 +1,12 @@
 @media screen and (max-width: 1000px) {
-  .slider .slider-item {
-    margin-bottom: 93px;
+  .slider .slider-content .slider-item {
+    margin-bottom: 92px;
     width: 295px;
   }
-  .slider .slider-item:nth-child(n+4) {
+  .slider .slider-content .slider-item:nth-child(n+4) {
     margin-bottom: 20px;
   }
-  .slider .slider-item img {
+  .slider .slider-content .slider-item img {
     height: 293px;
   }
   .slider .slider-buttons {

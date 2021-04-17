@@ -34,6 +34,11 @@ header .wrap-inner {
 }
 
 @media screen and (max-width: 1000px) {
+  header {
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+  }
   header .main-nav li {
     margin-left: 44px;
   }
@@ -41,6 +46,18 @@ header .wrap-inner {
 @media screen and (max-width: 640px) {
   header {
     height: 34px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    height: 34px;
+    padding: 0;
+  }
+  header .wrap-inner {
+    margin: auto;
+  }
+  header .logo {
+    width: 47px;
   }
 }
 

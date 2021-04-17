@@ -360,22 +360,19 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
   main .favorite-animal {
     padding-top: 82px;
     margin-top: -80px;
-    background: url("../assets/small-desktop/Giant_Panda-sd.png") no-repeat center center;
+    background: url("../assets/small/Giant_Panda-sd.png") no-repeat center center;
     background-size: cover;
     min-height: 584px;
-  }
-  main .favorite-animal .wrap-inner {
-    overflow: hidden;
   }
   main .favorite-animal .wrap-inner .left-side-box {
     width: 400px;
     position: relative;
-    padding-top: 75px;
+    padding-top: 74px;
     text-align: center;
   }
   main .favorite-animal .wrap-inner .left-side-box:before {
     top: -12px;
-    left: -114px;
+    left: -144px;
     width: 367px;
     height: 367px;
     background: url("../assets/Ellipse.png") center center;
@@ -385,16 +382,17 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     color: #FFFFFF;
     line-height: 64px;
     position: relative;
-    left: -55px;
+    left: -87px;
     top: -34px;
     margin: 0 0 7px;
+    font-weight: 700;
   }
   main .favorite-animal .wrap-inner .left-side-box .favorite-heading span {
     color: #FFEE2E;
   }
   main .favorite-animal .wrap-inner .left-side-box .front-link {
     position: relative;
-    left: -56px;
+    left: -86px;
   }
   main .backstage {
     padding: 108px 30px;
@@ -402,7 +400,7 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     margin-bottom: 47px;
   }
   main .backstage .img-block {
-    background: url("../assets/small-desktop/bamboo-cap-sd.png") no-repeat center center;
+    background: url("../assets/small/bamboo-cap-sd.png") no-repeat center center;
     width: 455px;
     height: 408px;
     margin-right: 85px;
@@ -428,21 +426,21 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     top: 14px;
   }
   main .pets {
-    padding-bottom: 139px;
-    background: url(../assets/small-desktop/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
-    background-size: 16%, 24%;
+    background: url(../assets/small/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
+    background-size: 19%, 24%;
+    padding: 0 30px 140px;
   }
   main .donation {
-    padding: 28px 0 50px;
+    padding: 30px 30px 50px;
   }
   main .donation .wrap-inner {
     padding: 30px 48px 50px;
   }
   main .donation .wrap-inner .donation-heading {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
   main .donation .wrap-inner .donation-sub-heading {
-    margin-bottom: 19px;
+    margin: 0 0 19px;
   }
   main .donation .wrap-inner .donation-strong-text {
     margin-top: 0;
@@ -456,9 +454,12 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
   main .donation .wrap-inner .payment-steps {
     margin-bottom: 73px;
   }
+  main .donation .wrap-inner .payment-info-heading {
+    margin: 0 0 41px;
+  }
   main .testimonials {
     padding: 100px 30px 140px;
-    background: url(../assets/leav_foto_v2.png) no-repeat right 118%;
+    background: url(../assets/leav_foto_v2.png) no-repeat right 117%;
     background-size: 20%;
   }
   main .testimonials .testimonials-heading {
@@ -488,6 +489,7 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
   }
   main .testimonials .testimonials-block .testimonials-list .testimonials-item:nth-child(2) .testimonials-head {
     margin-bottom: 19px;
+    padding-left: 41px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -498,13 +500,16 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     margin-top: -82px;
   }
   main .favorite-animal .wrap-inner {
-    width: 600px;
+    max-width: 600px;
+  }
+  main .favorite-animal .wrap-inner .left-side-box {
+    padding-top: 75px;
   }
   main .favorite-animal .wrap-inner .left-side-box:before {
     width: 237px;
     height: 237px;
     top: 10px;
-    left: 116px;
+    left: 111px;
   }
   main .favorite-animal .wrap-inner .left-side-box .favorite-heading {
     font-size: 54px;
@@ -515,15 +520,16 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     width: 255px;
     left: 150px;
     top: -29px;
+    margin: 0 0 5px;
   }
   main .favorite-animal .wrap-inner .left-side-box .front-link {
     bottom: 40px;
     left: -250px;
   }
   main .backstage {
-    padding: 60px 20px;
-    background: url(../assets/flower_foto1.png) no-repeat right center;
-    background-size: 24%;
+    padding: 70px 20px;
+    background: url(../assets/flower_foto1.png) no-repeat 106% 35%;
+    background-size: 25%;
     margin-bottom: 0;
   }
   main .backstage .two-column-row {
@@ -535,14 +541,115 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     display: none;
   }
   main .backstage .two-column-row .backstage-heading {
-    margin-bottom: 20px;
+    margin-bottom: 26px;
+  }
+  main .backstage .two-column-row .backstage-text {
+    width: 490px;
+    top: 36px;
+  }
+  main .backstage .two-column-row .backstage-text:nth-child(2) {
+    top: 8px;
+    width: 454px;
   }
   main .pets {
-    padding-bottom: 40px;
+    padding: 0 20px 40px;
+    background: url(../assets/small/palm_foto-sd.png) no-repeat -13% 100%, url(../assets/strelitzia.png) no-repeat right bottom;
+    background-size: 30%, 27%;
   }
   main .pets .wrap-inner {
-    width: 600px;
-    padding: 20px 20px 60px;
+    max-width: 600px;
+    padding: 38px 0 60px;
+  }
+  main .donation {
+    padding: 30px 0 50px;
+  }
+  main .donation .wrap-inner {
+    padding: 2px 20px 50px;
+  }
+  main .donation .wrap-inner .donation-heading {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  main .donation .wrap-inner .donation-sub-heading {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  main .donation .wrap-inner .donation-strong-text {
+    padding-right: 13px;
+  }
+  main .donation .wrap-inner .donation-text {
+    margin-bottom: 30px;
+  }
+  main .donation .wrap-inner .payment-info-heading {
+    margin: 0 0 20px;
+  }
+  main .donation .wrap-inner .payment-steps {
+    margin-bottom: 41px;
+    position: relative;
+    left: -6px;
+  }
+  main .donation .wrap-inner .payment-steps .payment-step:nth-child(3n-1) {
+    padding: 0 42px;
+  }
+  main .donation .wrap-inner .payment-steps .payment-step:nth-child(3n-1):after {
+    left: -31px;
+  }
+  main .donation .wrap-inner .payment-steps .payment-step:nth-child(3n-1):before {
+    right: -13px;
+  }
+  main .donation .wrap-inner .payment-steps .payment-step:nth-child(3n-1):after, main .donation .wrap-inner .payment-steps .payment-step:nth-child(3n-1):before {
+    background: url(../assets/small/arrow-tablet.png) no-repeat center center;
+    z-index: 1;
+    background-size: 100%;
+    width: 89px;
+    top: -19px;
+  }
+  main .testimonials {
+    padding: 40px 20px 80px;
+    background: url(../assets/leav_foto_v2.png) no-repeat 102% 117%;
+    background-size: 20%;
+  }
+  main .testimonials .testimonials-block .testimonials-list {
+    flex-direction: column;
+    margin-bottom: 42px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item {
+    width: 100%;
+    height: 105px;
+    margin-bottom: 20px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item:nth-child(2) {
+    padding: 5px 21px 19px 19px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item:nth-child(2) .testimonials-head {
+    margin-bottom: 12px;
+    padding-left: 35px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item:nth-child(2) .testimonials-head .testimonials-avatar {
+    left: -9px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item:nth-child(3) {
+    margin-bottom: 0;
+    padding-top: 8px;
+  }
+  main .testimonials .testimonials-block .testimonials-list .testimonials-item .testimonials-text {
+    height: 35px;
+  }
+  main .testimonials .testimonials-block .progress-nav-wrap {
+    display: none;
+  }
+  main .testimonials .front-link.secondary {
+    width: 240px;
+    display: block;
+    margin: auto;
   }
 }
 
