@@ -1,8 +1,4 @@
 @media screen and (max-width: 1000px) {
-  .wrap-inner {
-    width: auto;
-  }
-
   main .favorite-animal {
     padding-top: 82px;
     margin-top: -80px;
@@ -18,7 +14,7 @@
   }
   main .favorite-animal .wrap-inner .left-side-box:before {
     top: -12px;
-    left: -144px;
+    left: -114px;
     width: 367px;
     height: 367px;
     background: url("../assets/Ellipse.png") center center;
@@ -28,7 +24,7 @@
     color: #FFFFFF;
     line-height: 64px;
     position: relative;
-    left: -87px;
+    left: -56px;
     top: -34px;
     margin: 0 0 7px;
     font-weight: 700;
@@ -41,7 +37,8 @@
     left: -86px;
   }
   main .backstage {
-    padding: 108px 30px;
+    padding-top: 108px;
+    padding-bottom: 108px;
     background-size: 0%;
     margin-bottom: 47px;
   }
@@ -74,10 +71,11 @@
   main .pets {
     background: url(../assets/small/palm_foto-sd.png) no-repeat left bottom, url(../assets/strelitzia.png) no-repeat right bottom;
     background-size: 19%, 24%;
-    padding: 0 30px 140px;
+    padding-bottom: 140px;
   }
   main .donation {
-    padding: 30px 30px 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
   main .donation .wrap-inner {
     padding: 30px 48px 50px;
@@ -104,7 +102,8 @@
     margin: 0 0 41px;
   }
   main .testimonials {
-    padding: 100px 30px 140px;
+    padding-top: 100px;
+    padding-bottom: 140px;
     background: url(../assets/leav_foto_v2.png) no-repeat right 117%;
     background-size: 20%;
   }

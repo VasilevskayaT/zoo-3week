@@ -37,6 +37,7 @@ main {
           line-height: 80px;
           position: relative;
           margin: 0 0 60px;
+          font-weight: 700;
 
           span {
             color: #FFEE2E;
@@ -433,3 +434,4 @@ main {
 
 @import "main-small-desk";
 @import "main-tablet";
+@import "main-mobile";

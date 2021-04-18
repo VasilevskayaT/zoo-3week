@@ -2,6 +2,10 @@
 @media screen and (max-width: 640px) {
   header {
     height: 34px;
+
+    .logo {
+      border: none;
+    }
   }
 }
 

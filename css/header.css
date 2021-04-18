@@ -35,7 +35,6 @@ header .wrap-inner {
 
 @media screen and (max-width: 1000px) {
   header {
-    padding: 0 30px;
     position: relative;
     z-index: 1;
   }
@@ -46,6 +45,9 @@ header .wrap-inner {
 @media screen and (max-width: 640px) {
   header {
     height: 34px;
+  }
+  header .logo {
+    border: none;
   }
 }
 @media screen and (max-width: 320px) {
@@ -58,6 +60,13 @@ header .wrap-inner {
   }
   header .logo {
     width: 47px;
+    border: none;
+  }
+  header .logo h1:after {
+    background-size: 87%;
+    position: absolute;
+    top: 10px;
+    left: 1px;
   }
 }
 
