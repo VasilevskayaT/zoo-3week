@@ -44,6 +44,41 @@ header .wrap-inner {
 }
 @media screen and (max-width: 640px) {
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  header .main-nav {
+    width: 18px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+    cursor: pointer;
+    background: url("../assets/mobile-menu-line.svg") no-repeat top center, url("../assets/mobile-menu-line.svg") no-repeat center center, url("../assets/mobile-menu-line.svg") no-repeat bottom center;
+  }
+  header .main-nav li {
+    display: none;
+  }
+  header .logo h1 {
+    font-size: 12px;
+    line-height: 15px;
+    width: 46px;
+  }
+  header .logo h1:after {
+    background-size: 65%;
+    left: 3px;
+    top: 12px;
+  }
+
+  main {
+    padding-top: 34px;
+  }
+}
+@media screen and (max-width: 640px) {
+  header {
     height: 34px;
   }
   header .logo {
@@ -57,6 +92,7 @@ header .wrap-inner {
   }
   header .wrap-inner {
     margin: auto;
+    overflow: hidden;
   }
   header .logo {
     width: 47px;

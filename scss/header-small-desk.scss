@@ -12,3 +12,45 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    .main-nav {
+      width: 18px;
+      height: 10px;
+      position: absolute;
+      right: 20px;
+      top: 11px;
+      cursor: pointer;
+      background: url("../assets/mobile-menu-line.svg") no-repeat top center, url("../assets/mobile-menu-line.svg") no-repeat center center, url("../assets/mobile-menu-line.svg") no-repeat bottom center;
+
+      li {
+        display: none;
+      }
+    }
+
+    .logo {
+      h1 {
+        font-size: 12px;
+        line-height: 15px;
+        width: 46px;
+
+        &:after {
+          background-size: 65%;
+          left: 3px;
+          top: 12px;
+        }
+      }
+    }
+  }
+
+  main {
+    padding-top: 34px;
+  }
+}
+

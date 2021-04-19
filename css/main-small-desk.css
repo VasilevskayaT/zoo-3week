@@ -138,5 +138,10 @@
     padding-left: 41px;
   }
 }
+@media screen and (max-width: 640px) {
+  main {
+    padding-top: 34px;
+  }
+}
 
 /*# sourceMappingURL=main-small-desk.css.map */

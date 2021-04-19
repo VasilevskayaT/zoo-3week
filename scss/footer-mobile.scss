@@ -1,29 +1,35 @@
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
 
   footer {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
 
     .wrap-inner {
-      padding-top: 2%;
+      padding: 20px 10px 30px;
+      overflow: hidden;
 
       .footer-top {
         display: flex;
         flex-direction: column;
+        margin-bottom: 40px;
 
         .logo {
           border: none;
-          margin: auto;
-          width: 53%;
-          padding: 3% 0;
+          margin: 0 auto 96px;
+          width: 128px;
+          padding: 0;
+
         }
 
         .footer-title {
 
           &:after {
-            top: -11%;
-            left: 55%;
+            top: -3px;
+            left: 72px;
           }
         }
 
@@ -53,23 +59,28 @@
       }
 
       .footer-center {
-        margin-bottom: 0;
+        margin-bottom: 40px;
 
         .front-link.secondary {
-          position: absolute;
-          top: 84%;
+          position: static;
         }
       }
 
       .footer-bottom {
+        flex-direction: column-reverse;
+
+        .footer-menu {
+          margin-top: 40px;
+        }
 
         .social-list {
-          right: 11%;
-          bottom: 158%;
+          right: 50%;
+          margin-right: -97px;
+          bottom: 389px;
           display: flex;
           justify-content: space-around;
-          width: 74%;
-          height: 37%;
+          width: 194px;
+          height: auto;
         }
       }
     }

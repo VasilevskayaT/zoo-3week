@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 320px;
 }
 
 .wrap-inner {
   max-width: 1160px;
   margin: auto;
   font-family: "Roboto", sans-serif;
+  padding: 0 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -35,7 +37,7 @@ h1, h2, h3, h4, h5 {
   content: "";
   width: 12px;
   height: 21px;
-  background: url("../assets/bamboo.svg");
+  background: url("../assets/bamboo.svg") no-repeat;
   position: absolute;
   top: 19px;
   left: 9px;
