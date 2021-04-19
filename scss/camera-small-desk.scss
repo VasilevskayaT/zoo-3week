@@ -1,0 +1,162 @@
+@import "header";
+@import "footer";
+@import "general";
+@import "slider";
+
+@media screen and (max-width: 1000px) {
+  main {
+    .left-side-menu {
+      .menu-block {
+        width: 72px;
+
+        .menu-list {
+          padding: 10px 0 0;
+
+          .menu-item {
+            margin-bottom: 13%;
+
+            .page-link {
+              width: 52px;
+              height: 52px;
+              background-size: 75%;
+
+              &.active {
+                background-size: 75%;
+              }
+
+              &.penguin-link {
+                background-size: 50%
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    .video-block {
+      padding: 2% 3% 8% 19.2%;
+
+      .youtube-block {
+        margin-bottom: 7%;
+
+        iframe {
+          height: 438px;
+        }
+      }
+
+      .wrap-inner {
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+  main {
+    .left-side-menu {
+      .menu-block {
+        margin-left: 20px;
+        position: static;
+      }
+    }
+
+    .wrap-inner {
+      padding: 0 20px;
+    }
+
+    .animal-info {
+
+      .info-heading {
+        text-align: center;
+      }
+
+      .info-block {
+        .top-info-block {
+          height: auto;
+          flex-direction: column;
+
+          .avatar {
+            width: 390px;
+            margin-bottom: 30px;
+
+            img {
+              height: auto;
+              width: 100%;
+            }
+          }
+
+          .general-info {
+            padding-left: 0;
+
+            .general-info-text {
+              max-width: 420px;
+            }
+
+            .front-link {
+              margin: 0 auto;
+            }
+
+          }
+        }
+      }
+    }
+
+    .video-block {
+      padding-right: 30px;
+
+      .wrap-inner {
+        margin: auto;
+      }
+
+      .youtube-block {
+        iframe {
+          height: 278px;
+        }
+      }
+
+      .small-slider {
+        .videos-list {
+          .video-item {
+            margin-right: 30px;
+
+            iframe {
+              width: 180px;
+              height: 140px;
+            }
+          }
+        }
+
+        .slider-buttons {
+          position: static;
+          display: flex;
+          justify-items: center;
+          align-items: center;
+          flex-direction: column;
+
+          .slide-arrow {
+            position: static;
+            margin: 0;
+            width: 42px;
+            height: 42px;
+
+
+            &.right-arrow {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .donation-block {
+      padding: 199px 0 40px;
+
+      &[data-theme="panda"] {
+        background-position: -235px -40px;
+      }
+
+    }
+
+  }
+}

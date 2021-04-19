@@ -34,7 +34,7 @@
   }
   main .favorite-animal .wrap-inner .left-side-box .front-link {
     position: relative;
-    left: -86px;
+    left: -14%;
   }
   main .backstage {
     padding-top: 108px;
@@ -94,6 +94,7 @@
   main .donation .wrap-inner .donation-text {
     height: 40px;
     margin-bottom: 41px;
+    width: 100%;
   }
   main .donation .wrap-inner .payment-steps {
     margin-bottom: 73px;

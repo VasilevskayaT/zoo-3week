@@ -132,6 +132,7 @@ main .donation .wrap-inner .donation-text {
   font-size: 16px;
   margin-top: 13px;
   margin-bottom: 0;
+  width: 90%;
 }
 main .donation .wrap-inner .br {
   margin: 0;
@@ -389,7 +390,7 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
   }
   main .favorite-animal .wrap-inner .left-side-box .front-link {
     position: relative;
-    left: -86px;
+    left: -14%;
   }
   main .backstage {
     padding-top: 108px;
@@ -449,6 +450,7 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
   main .donation .wrap-inner .donation-text {
     height: 40px;
     margin-bottom: 41px;
+    width: 100%;
   }
   main .donation .wrap-inner .payment-steps {
     margin-bottom: 73px;
@@ -609,13 +611,13 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     top: -19px;
   }
   main .testimonials {
-    padding: 60px 0 78px;
+    padding: 60px 0 80px;
     background: url(../assets/leav_foto_v2.png) no-repeat 102% 116%;
     background-size: 20%;
   }
   main .testimonials .testimonials-block .testimonials-list {
     flex-direction: column;
-    margin-bottom: 42px;
+    margin-bottom: 6.5%;
   }
   main .testimonials .testimonials-block .testimonials-list .testimonials-item {
     width: 100%;
@@ -654,8 +656,8 @@ main .testimonials .testimonials-block .testimonials-list .testimonials-item .te
     margin-top: -80px;
   }
   main .favorite-animal .wrap-inner .left-side-box:before {
-    width: 40%;
-    height: 63%;
+    width: 119px;
+    height: 119px;
     top: 12%;
     left: 51%;
   }

@@ -193,7 +193,7 @@ main {
 }
 
 .animal-info {
-  background: url("../assets/strelitzia_info.png") no-repeat left bottom, url("../assets/leave_foto.png") no-repeat right bottom;
+  background: url("../assets/strelitzia_info.png") no-repeat left bottom, url("../assets/leave_foto.png") no-repeat 101% bottom;
 margin-top: -45px;
   .info-heading {
     font-style: normal;
@@ -480,3 +480,165 @@ margin-top: -45px;
     background: url("../assets/Alligator_bg.png") no-repeat center center;
   }
 }
+
+@media screen and (max-width: 1599px) {
+  // to general
+  main {
+    .wrap-inner {
+      padding: 0 30px;
+    }
+  }
+
+  main {
+    .left-side-menu {
+      width: 100px;
+      margin: 0;
+      left: 0;
+      z-index: 100;
+      top: 92px;
+      height: 23%;
+
+      .menu-block {
+        margin-left: 30px;
+      }
+    }
+
+    .video-block {
+      width: 100%;
+      padding: 40px 192px 40px 192px;
+      box-sizing: border-box;
+
+      .wrap-inner {
+        padding: 0;
+      }
+
+      .small-slider {
+        padding: 0 82px;
+
+        .videos-list {
+          .video-item {
+            &:nth-child(n+4) {
+              display: none;
+            }
+          }
+        }
+      }
+
+    }
+
+    .animal-info {
+      .info-block {
+        .main-info-block {
+          .info-row {
+
+            .info-row-heading {
+              margin: 0 0 2%;
+            }
+            margin-bottom: 2%;
+
+            &:nth-child(-n+3) {
+              flex-wrap: nowrap;
+
+              .info-row-heading {
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  main {
+    .video-block {
+      padding-right: 70px;
+
+      .youtube-block {
+        margin-bottom: 60px;
+      }
+
+      .small-slider {
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        &.slider {
+          margin-bottom: 8%;
+        }
+
+        .slider-buttons {
+          position: static;
+          display: flex;
+          justify-items: center;
+          align-items: center;
+          flex-direction: column;
+
+          .slide-arrow {
+            position: static;
+            margin: 0;
+
+            &.right-arrow {
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .videos-list {
+          justify-content: flex-start;
+
+          .video-item {
+            margin-right: 23px;
+            width: 50%;
+
+            iframe {
+              width: 100%;
+            }
+
+            &:nth-child(n+3) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .animal-info {
+      background-size: 187px 139px, 166px 166px;
+      //background: url(../assets/strelitzia_info.png) no-repeat left bottom, url(../assets/leave_foto.png) no-repeat 101% bottom;
+      //margin-top: -45px;
+
+      .info-block {
+        .top-info-block {
+          height: 458px;
+          border: 0;
+
+          .avatar {
+            img {
+              height: 100%;
+            }
+          }
+
+          .general-info {
+            padding-left: 7%;
+            height: 100%;
+
+            .general-info-text {
+              font-size: 22px;
+              line-height: 31px;
+            }
+
+            .front-link {
+              margin-left: 0%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "camera-small-desk";
+@import "camera-tablet";
+@import "camera-mobile";

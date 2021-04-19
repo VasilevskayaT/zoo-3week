@@ -1,0 +1,23 @@
+@import 'header';
+@import 'footer';
+@import 'general';
+
+@media screen and (max-width: 640px) {
+  main {
+    .donate-block {
+      .donate-info-block {
+        .donate-widget {
+          .donate-controller {
+            .donate-points-list {
+              .donate-point {
+                &:nth-child(-n+3) {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

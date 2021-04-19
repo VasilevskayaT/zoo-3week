@@ -1,0 +1,130 @@
+@import "header";
+@import "footer";
+@import "general";
+@import "slider";
+
+@media screen and (max-width: 639px) {
+  main {
+    .wrap-inner {
+      padding: 0 10px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 320px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .left-side-menu {
+
+      .menu-block {
+        margin-left: 10px;
+        position: absolute;
+        width: 62px;
+        top: 137px;
+
+        .menu-list {
+          padding: 5px;
+
+          .menu-item {
+            margin-bottom: 5px;
+
+            &:nth-child(n+4) {
+              display: none;
+            }
+
+            &:last-child {
+              display: block;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .video-block {
+      padding: 20px 0;
+
+      .wrap-inner {
+        padding: 0 10px;
+      }
+
+      .small-slider {
+        .slider-buttons {
+          display: none;
+        }
+
+        .videos-list {
+          padding-left: 83px;
+          flex-wrap: wrap;
+          max-width: 270px;
+
+          .video-item {
+            margin-right: 0;
+            width: auto;
+
+            &:nth-child(n) {
+              display: block;
+            }
+
+            &:nth-child(2n+1) {
+              margin-right: 10px;
+            }
+
+            iframe {
+              width: 89px;
+              height: 68px;
+            }
+          }
+        }
+      }
+
+      .video-heading {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 29px;
+        margin-bottom: 10px;
+      }
+
+      .youtube-block {
+        margin-bottom: 20px;
+
+        iframe {
+          height: 168px;
+          width: 100%;
+        }
+      }
+    }
+
+    .animal-info {
+      margin-top: -70px;
+      background-size: 85px 63px, 55px 55px;
+
+      &[data-theme] {
+        .info-block {
+          padding-bottom: 80px;
+        }
+      }
+
+      .info-heading {
+        font-size: 24px;
+        line-height: 29px;
+
+      }
+
+      .info-block {
+        .top-info-block {
+          .avatar {
+            width: 100%;
+            max-height: 193px;
+            overflow: hidden;
+
+            img {
+              position: relative;
+              top: -30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,21 +3,21 @@
     box-sizing: border-box;
   }
   footer .footer-top {
-    padding-left: 14px;
+    padding-left: 0;
   }
   footer .footer-top .subscribe-block {
-    left: -15px;
+    left: -3%;
   }
   footer .footer-center {
-    padding-left: 14px;
+    padding-left: 0;
   }
   footer .footer-bottom {
-    padding-left: 14px;
+    padding-left: 0;
   }
   footer .footer-bottom .footer-menu {
     padding-left: 0;
     padding-right: 0;
-    margin-left: 105px;
+    margin-left: 13%;
   }
   footer .footer-bottom .footer-menu .footer-menu-item {
     margin-left: 48px;
@@ -27,7 +27,7 @@
   }
   footer .footer-bottom .copy-right-block {
     position: relative;
-    left: 13px;
+    left: 0;
   }
   footer .footer-bottom .copy-right-text {
     margin-top: 11px;

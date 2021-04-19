@@ -1,0 +1,35 @@
+@import "header";
+@import "footer";
+@import "general";
+
+@media screen and (max-width: 1000px) {
+  header {
+    height: 81px;
+  }
+
+
+    .map-wrapper {
+      padding: 100px 0 26px;
+
+      .fake-canvas {
+
+        .map-block {
+          left: 0px;
+          top: -12px;
+          display: block;
+          margin: auto;
+
+          img {
+            width: 94%;
+            margin: auto;
+          }
+        }
+      }
+
+      .zoom-set {
+        right: 21px;
+        bottom: 10px;
+      }
+    }
+
+}

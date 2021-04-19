@@ -1,0 +1,200 @@
+@media screen and (max-width: 320px) {
+  main {
+
+    .favorite-animal {
+      min-height: 187px;
+      margin-top: -80px;
+      .wrap-inner {
+
+        .left-side-box {
+
+          &:before {
+            width: 119px;
+            height: 119px;
+            top: 12%;
+            left: 51%;
+          }
+
+          .favorite-heading {
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 128px;
+            left: 172px;
+            top: -34px;
+          }
+
+          .front-link {
+            position: absolute;
+            bottom: -40%;
+            left: 0%;
+          }
+        }
+      }
+    }
+
+    .backstage {
+      padding-top: 36%;
+      padding-bottom: 3%;
+      background: url(../assets/flower_foto1.png) no-repeat 116% 16%;
+      background-size: 22%;
+
+      .two-column-row {
+
+        .backstage-heading {
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: left;
+          width: 75%;
+          margin-bottom: 3%;
+        }
+
+        .backstage-text {
+          width: 65%;
+          top: 4%;
+
+          &:nth-child(2) {
+            top: 3%;
+            width: 66%;
+          }
+        }
+
+        .backstage-sub-heading {
+          top: 2%;
+        }
+      }
+    }
+
+    .pets {
+      padding-bottom: 0%;
+      background: url(../assets/small/palm_foto-sd.png) no-repeat -5% 100%, url(../assets/strelitzia.png) no-repeat 108% bottom;
+      background-size: 23%, 27%;
+
+      .link-wrap-choose {
+        margin-top: 0%;
+      }
+    }
+
+    .donation {
+      padding: 7% 3%;
+
+      .wrap-inner {
+        padding: 6% 0% 12%;
+
+        .donation-heading {
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-bottom: 4%;
+        }
+
+        .donation-sub-heading {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+
+        .donation-strong-text, .donation-text {
+          display: none;
+        }
+
+          .payment-info-heading {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+          }
+
+        .payment-steps {
+          flex-direction: column;
+          left: 22%;
+          margin-bottom: 0;
+          .payment-step {
+            margin-bottom: 14%;
+
+            &.step-2 {
+              margin-bottom: 10%;
+            }
+            .step-icon {
+              width: 56%;
+              margin-bottom: 3%;
+            }
+
+            &:nth-child(3n-1) {
+              padding: 0;
+
+              &:before, &:after {
+                transform: rotate(85.06deg);
+                width: 30%;
+                left: 46%;
+              }
+
+              &:after {
+                top: -24%;
+              }
+
+              &:before {
+                top: 88%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .testimonials {
+      padding: 10% 0 19%;
+      background: url(../assets/leav_foto_v2.png) no-repeat 101% 108%;
+      background-size: 20%;
+
+      .testimonials-heading {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 6%;
+      }
+
+      .testimonials-block {
+
+        .testimonials-list {
+          margin-bottom: 10%;
+
+          .testimonials-item {
+
+            &:first-child {
+              padding: 3% 4% 3% 5%;
+            }
+
+            &:nth-child(3) {
+              .testimonials-head {
+                padding-left: 16%;
+              }
+            }
+
+            .testimonials-head {
+              padding-left: 15%;
+              margin-bottom: 4%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
