@@ -3,10 +3,6 @@
 @import "general";
 
 @media screen and (max-width: 1000px) {
-  header {
-    height: 81px;
-  }
-
 
     .map-wrapper {
       padding: 100px 0 26px;
@@ -23,6 +19,68 @@
             width: 94%;
             margin: auto;
           }
+
+          .points-block {
+
+            .alligator-point {
+              top: 360px;
+              left: 241px;
+              background-size: 87%;
+
+              &:after {
+                top: -33px;
+                left: 7px;
+              }
+            }
+
+            .eagle-point {
+              background: url(../assets/eagle1.png) no-repeat 7% 32%, url(../assets/eagle2.png) no-repeat 75% 93%;
+              background-size: 45%;
+              top: 314px;
+              left: 111px;
+
+              &:after {
+                top: -3px;
+                right: 18px;
+                background-size: 79%;
+              }
+            }
+
+            .gorillas-point {
+              top: 431px;
+              left: 499px;
+              background-size: 89%;
+
+              &:after {
+                top: -30px;
+                left: 0px;
+              }
+            }
+
+            .panda-point {
+              top: 277px;
+              left: 739px;
+              background-size: 83%;
+
+              &:after {
+                top: 9px;
+                left: 87%;
+                background-size: 84%;
+              }
+            }
+
+            .pandas-point {
+              top: 336px;
+              left: 733px;
+              background-size: 86%;
+
+              &:after {
+                top: -8px;
+                right: -15px;
+                background-size: 84%;
+              }
+            }
+          }
         }
       }
 
@@ -32,4 +90,12 @@
       }
     }
 
+}
+@media screen and (max-width: 1000px) {
+
+  footer {
+    .wrap-inner {
+      padding: 0;
+    }
+  }
 }

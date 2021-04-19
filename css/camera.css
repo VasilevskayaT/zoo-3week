@@ -81,6 +81,9 @@ header .wrap-inner {
   header {
     height: 34px;
   }
+  header .wrap-inner {
+    padding: 0 20px;
+  }
   header .logo {
     border: none;
   }
@@ -313,7 +316,7 @@ footer .footer-bottom .copy-right-text {
   color: #FFFFFF;
   font-weight: 200;
   margin-bottom: 0;
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1402,6 +1405,11 @@ main .menu-block .menu-list .menu-item .page-link:hover.bottom-link, main .menu-
   }
   main .donation-block[data-theme=panda] {
     background-position: -235px -40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  footer .wrap-inner {
+    padding: 0;
   }
 }
 @media screen and (max-width: 639px) {

@@ -81,6 +81,9 @@ header .wrap-inner {
   header {
     height: 34px;
   }
+  header .wrap-inner {
+    padding: 0 20px;
+  }
   header .logo {
     border: none;
   }

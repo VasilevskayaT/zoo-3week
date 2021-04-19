@@ -1,0 +1,127 @@
+@import "header";
+@import "footer";
+@import "general";
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 34px;
+  }
+  .map-wrapper {
+    padding: 69px 0 12px;
+
+    .fake-canvas {
+
+      .map-block {
+
+        .points-block {
+
+          .animal-point {
+            background-size: 60%;
+
+            &:after {
+              background-size: 53%;
+            }
+          }
+
+          .alligator-point {
+            top: 220px;
+            left: 140px;
+
+            &:after {
+              top: -20px;
+              left: 15px;
+            }
+          }
+
+          .eagle-point {
+            background: url(../assets/eagle1.png) no-repeat 7% 32%, url(../assets/eagle2.png) no-repeat 44% 69%;
+            background-size: 32%;
+            top: 190px;
+            left: 67px;
+
+            &:after {
+              top: 1px;
+              right: 32px;
+            }
+          }
+
+          .gorillas-point {
+            top: 258px;
+            left: 311px;
+
+            &:after {
+              top: -12px;
+              left: 4px;
+            }
+          }
+
+          .panda-point {
+            top: 157px;
+            left: 464px;
+
+            &:after {
+              top: 18px;
+              left: 58%;
+            }
+          }
+
+          .pandas-point {
+            top: 198px;
+            left: 457px;
+
+            &:after {
+              top: 3px;
+              right: -9px;
+            }
+          }
+        }
+
+        img {
+          width: 93%;
+          margin: auto;
+        }
+
+        .active-countries {
+
+          .country-marker {
+            font-size: 8px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 10px;
+            letter-spacing: 0em;
+            text-align: center;
+          }
+
+          .usa-marker {
+            top: 185px;
+            left: 103px;
+          }
+
+          .la-marker {
+            top: 205px;
+            left: 113px;
+          }
+
+          .florida-marker {
+            top: 218px;
+            left: 175px;
+          }
+
+          .congo-marker {
+            top: 264px;
+            left: 334px;
+          }
+
+          .china-marker {
+            top: 202px;
+            left: 447px;
+          }
+        }
+      }
+    }
+
+    .zoom-set {
+      display: none;
+    }
+  }
+}

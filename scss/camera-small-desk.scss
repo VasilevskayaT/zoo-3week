@@ -155,3 +155,12 @@
 
   }
 }
+
+@media screen and (max-width: 1000px) {
+
+  footer {
+    .wrap-inner {
+      padding: 0;
+    }
+  }
+}
